@@ -1,0 +1,20 @@
+{
+  "name": "randomusers",
+  "version": "1.0.0",
+  "description": "Display info for 1000 random US users from this API: https://randomuser.me/",
+  "main": "index.js",
+  "scripts": {
+    "start":"webpack-dev-server --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CJKuo/random-users.git"
+  },
+  "author": "cjkuo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CJKuo/random-users/issues"
+  },
+  "homepage": "https://github.com/CJKuo/random-users#readme"
+}
