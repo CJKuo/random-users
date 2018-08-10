@@ -36,8 +36,8 @@ class TableRow extends React.Component {
    render() {
       return (
          <tr>
-            <td><img src={this.props.data.picture} class="user-image" /></td>
-            <td>{this.props.data.name} <br /> {this.props.data.email}</td>
+            <td class="image-clmn"><img src={this.props.data.picture} class="user-image" /></td>
+            <td class="info-clmn"><b>{this.props.data.name}</b> <br /> {this.props.data.email}</td>
          </tr>
       );
    }
